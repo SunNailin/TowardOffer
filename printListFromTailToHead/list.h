@@ -5,7 +5,7 @@
 
 using namespace std;
 
-#ifdef NULL
+#ifdef
 #endif
 
 struct ListNode {

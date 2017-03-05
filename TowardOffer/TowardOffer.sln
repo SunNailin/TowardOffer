@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardOffer", "TowardOffer.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "printListFromTailToHead", "..\printListFromTailToHead\printListFromTailToHead.vcxproj", "{2238F342-2C3C-437E-9E49-46C416232693}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reConstructBinaryTree", "..\reConstructBinaryTree\reConstructBinaryTree.vcxproj", "{7A3C1D93-92B4-439D-A54D-21AE877959A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,10 @@ Global
 		{2238F342-2C3C-437E-9E49-46C416232693}.Debug|Win32.Build.0 = Debug|Win32
 		{2238F342-2C3C-437E-9E49-46C416232693}.Release|Win32.ActiveCfg = Release|Win32
 		{2238F342-2C3C-437E-9E49-46C416232693}.Release|Win32.Build.0 = Release|Win32
+		{7A3C1D93-92B4-439D-A54D-21AE877959A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A3C1D93-92B4-439D-A54D-21AE877959A3}.Debug|Win32.Build.0 = Debug|Win32
+		{7A3C1D93-92B4-439D-A54D-21AE877959A3}.Release|Win32.ActiveCfg = Release|Win32
+		{7A3C1D93-92B4-439D-A54D-21AE877959A3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
