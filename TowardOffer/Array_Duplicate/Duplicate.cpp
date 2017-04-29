@@ -37,5 +37,5 @@ public:
 
 
 int main(){
-
+	cout << "kakak";
 }

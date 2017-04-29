@@ -10,7 +10,7 @@ using namespace std;
 class Solution{
 public:
 	//方法一：最笨的一个一个乘的方法 O(n^2)
-	vector<int> multiply(const vector<int>& A) 
+	/*vector<int> multiply(const vector<int>& A) 
 	{
 		int aLen = A.size();
 		vector<int> B;
@@ -25,5 +25,7 @@ public:
 			B.push_back(temp);
 		}
 		return B;
-	}
+	}*/
+
+	//方法二：
 };
