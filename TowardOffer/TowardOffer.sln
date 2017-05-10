@@ -75,6 +75,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "时间效率", "时间效�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MoreThanHalfNum", "MoreThanHalfNum\MoreThanHalfNum.vcxproj", "{6A514D8B-2EF8-419C-964D-8007B863B3EE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GetLeastNumbers", "GetLeastNumbers\GetLeastNumbers.vcxproj", "{A7839461-B97A-49A8-8A62-8722EBBD24DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -193,6 +195,10 @@ Global
 		{6A514D8B-2EF8-419C-964D-8007B863B3EE}.Debug|Win32.Build.0 = Debug|Win32
 		{6A514D8B-2EF8-419C-964D-8007B863B3EE}.Release|Win32.ActiveCfg = Release|Win32
 		{6A514D8B-2EF8-419C-964D-8007B863B3EE}.Release|Win32.Build.0 = Release|Win32
+		{A7839461-B97A-49A8-8A62-8722EBBD24DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7839461-B97A-49A8-8A62-8722EBBD24DC}.Debug|Win32.Build.0 = Debug|Win32
+		{A7839461-B97A-49A8-8A62-8722EBBD24DC}.Release|Win32.ActiveCfg = Release|Win32
+		{A7839461-B97A-49A8-8A62-8722EBBD24DC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -226,5 +232,6 @@ Global
 		{10D30B34-EDA0-43A8-8726-5E76279FD337} = {331D91ED-DACE-4FB9-B9EB-89D19282B13F}
 		{DE35AB82-994D-4613-84C3-15E3B1855626} = {331D91ED-DACE-4FB9-B9EB-89D19282B13F}
 		{6A514D8B-2EF8-419C-964D-8007B863B3EE} = {5F9B9CDD-D604-45AE-860E-209E5C3E6436}
+		{A7839461-B97A-49A8-8A62-8722EBBD24DC} = {5F9B9CDD-D604-45AE-860E-209E5C3E6436}
 	EndGlobalSection
 EndGlobal
