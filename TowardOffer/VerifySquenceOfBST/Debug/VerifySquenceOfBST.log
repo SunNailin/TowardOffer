@@ -1,0 +1,16 @@
+﻿生成启动时间为 2017/5/16 星期二 12:33:43。
+     1>项目“C:\SailorWorkSpace\TowardOffer\TowardOffer\VerifySquenceOfBST\VerifySquenceOfBST.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt VerifySquenceOfBST.cpp
+         VerifySquenceOfBST.cpp
+     1>c:\sailorworkspace\towardoffer\towardoffer\verifysquenceofbst\verifysquenceofbst.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\sailorworkspace\towardoffer\towardoffer\verifysquenceofbst\verifysquenceofbst.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\sailorworkspace\towardoffer\towardoffer\verifysquenceofbst\verifysquenceofbst.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\SailorWorkSpace\TowardOffer\TowardOffer\Debug\VerifySquenceOfBST.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\SailorWorkSpace\TowardOffer\TowardOffer\Debug\VerifySquenceOfBST.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\SailorWorkSpace\TowardOffer\TowardOffer\Debug\VerifySquenceOfBST.lib" /MACHINE:X86 Debug\VerifySquenceOfBST.obj
+     1>LINK : fatal error LNK1561: 必须定义入口点
+     1>已完成生成项目“C:\SailorWorkSpace\TowardOffer\TowardOffer\VerifySquenceOfBST\VerifySquenceOfBST.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.20

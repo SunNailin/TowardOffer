@@ -47,3 +47,26 @@ public:
 	}
 
 };
+
+class Solution2{
+public:
+	vector<int> PrintFromTopToBottom(TreeNode* root)
+	{
+		queue<TreeNode*> q;
+		vector<int> res;
+		if (!root)
+		{
+			return res;
+		}
+		q.push(root);
+		while (!q.empty())
+		{
+			TreeNode* pNode = q.front();
+			res.push_back(pNode->val);
+			q.pop();
+			if (pNode->left) q.push(pNode->left);
+			if (pNode->right) q.push(pNode->right);
+		}
+		return res;
+	}
+};

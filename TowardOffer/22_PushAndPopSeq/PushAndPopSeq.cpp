@@ -9,14 +9,27 @@ public:
 	stack<int> dataStack;
 	bool isPopOrder(vector<int> pushV, vector<int> popV)
 	{
-		bool flag = false;
-		int pushPointer = 0, popPointer = 0;
-		if (pushV.size() != 0 && popV.size() != 0)
+		if (pushV.size() == 0 && popV.size() == 0)
 		{
-			while (pushV[pushPointer] == popV[popPointer])
+			return 1;
+		}
+		else if (pushV.size() != popV.size())
+		{
+			return 0;
+		}
+		else
+		{
+			vector<int> stack;
+			for (int i = 0, j = 0; i < pushV.size();)
 			{
-
+				stack.push_back(pushV[i++]);
+				while (j < popV.size() && stack.back() == popV[j])
+				{
+					stack.pop_back();
+					j++;
+				}
 			}
+			return stack.empty();
 		}
 	}
 };
